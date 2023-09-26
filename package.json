@@ -4,6 +4,7 @@
   "homepage": "https://pablosecuen.github.io/",
   "private": true,
   "scripts": {
+    "export": "next export",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -22,7 +23,8 @@
     "react-dom": "latest",
     "react-modal": "^3.16.1",
     "react-responsive": "^9.0.2",
-    "react-scroll-parallax": "^3.4.2"
+    "react-scroll-parallax": "^3.4.2",
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "@types/animejs": "^3.1.8",
