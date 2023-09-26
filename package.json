@@ -1,12 +1,14 @@
 {
-  "name": "portfolio",
+  "name": "pablosecuen.github.io",
   "version": "0.1.0",
+  "homepage": "https://pablosecuen.github.io/",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -31,6 +33,7 @@
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "gh-pages": "^6.0.0",
     "postcss": "latest",
     "tailwindcss": "latest",
     "typescript": "latest"
